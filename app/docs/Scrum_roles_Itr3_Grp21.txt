@@ -1,0 +1,4 @@
+Scrum Master: 	Subaig Bindra (ssbindra)
+Product Owner: 	Parsa Keikhosravani (pkeikhos)
+Repo Manager:	Rafael Freire Kloecking (rfreirek)
+Team Member:	Pritpal Dhillon (pda27)

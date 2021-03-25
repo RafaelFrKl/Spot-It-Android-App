@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8B0000"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/picbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/menu_flickrbtn"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/savedimgbtn"
+        app:layout_constraintStart_toStartOf="@+id/savedimgbtn" />
+
+    <Button
+        android:id="@+id/highscoresbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/high_scores"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/optionsbtn"
+        app:layout_constraintStart_toStartOf="@+id/optionsbtn" />
+
+    <TextView
+        android:id="@+id/menutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="50dp"
+        android:shadowColor="#000000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/menu_title"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/playbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/menu_play_btn"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/highscoresbtn"
+        app:layout_constraintStart_toStartOf="@+id/highscoresbtn" />
+
+    <Button
+        android:id="@+id/optionsbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/menu_options_btn"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/picbtn"
+        app:layout_constraintStart_toStartOf="@+id/picbtn" />
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="50dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/menu_help_btn"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/savedimgbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/saved_images_flickr_string"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/localgalleybtn"
+        app:layout_constraintStart_toStartOf="@+id/localgalleybtn" />
+
+    <Button
+        android:id="@+id/localgalleybtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="gallery"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@id/helpbtn"
+        app:layout_constraintStart_toStartOf="@id/helpbtn" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

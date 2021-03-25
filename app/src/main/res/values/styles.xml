@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name="options">
+        <item> Icons </item>
+        <item> Robots </item>
+    </string-array>
+    <integer-array name="ImagesPerCard">
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer-array name="MaxDrawPile">
+        <item>6</item>
+        <item>12</item>
+        <item>30</item>
+    </integer-array>
+
+    <integer-array name="DrawPileSize">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+    </integer-array>
+
+    <string-array name="Texts">
+        <item> Red question mark</item>
+        <item> Pile of books</item>
+        <item> Telescope</item>
+        <item> Hourglass</item>
+        <item> Monitor and keybord</item>
+        <item> stethoscope</item>
+        <item> Hammering a CDplayer</item>
+        <item>Planet earth</item>
+        <item>Castle</item>
+        <item> Wooden brown chest</item>
+        <item> Red lock</item>
+        <item>Parking lot</item>
+        <item>Question mark</item>
+        <item>Group of coloured circles</item>
+        <item>HELP</item>
+        <item>Keybourd with red buttons</item>
+        <item>Info</item>
+        <item>Maze</item>
+        <item>Survey</item>
+        <item>Yes or No</item>
+        <item> Yellow question mark</item>
+        <item>Help on sand</item>
+        <item>Mouse</item>
+        <item>Red Chest</item>
+        <item>Monitor on fire</item>
+        <item>Musical note</item>
+        <item>Blue cable</item>
+        <item>Lamps</item>
+        <item>Crashed car</item>
+        <item>Project</item>
+        <item>Binoculars</item>
+
+        <item>Robot holding a prize</item>
+        <item>Robots shaking hand</item>
+        <item>Robot and a blackboard</item>
+        <item>Small and big robots</item>
+        <item>Robot and batteries</item>
+        <item>Robot and a whiteboard</item>
+        <item>Robot inside of a wheel</item>
+        <item>Robot with buttons </item>
+        <item>Robot painting</item>
+        <item>Robot with a tablet</item>
+        <item>Robots sitting</item>
+        <item>Robot holding a wrench downwards</item>
+        <item>Robot holding a wrench upwards</item>
+        <item>Robot sitting on a pile of books</item>
+        <item>Robots connecting puzzle pieces</item>
+        <item>Robot with a lock</item>
+        <item>Robot with a drill</item>
+        <item>Robot pushing a red button</item>
+        <item>Robot reaching for a book</item>
+        <item>Robot with thumbtacks</item>
+        <item>Robot with a red thumbtack</item>
+        <item>Robot with dice</item>
+        <item>Robot with a lamp</item>
+        <item>Robot with a yellow thumbtack</item>
+        <item>Robot reading a book</item>
+        <item>Robot inside the recyclable sign</item>
+        <item>Robot on the wifi sign</item>
+        <item>Robot with a grey board</item>
+        <item>Robot holding an envelope</item>
+        <item>Robot holding a clipboard</item>
+        <item>Dizzy Robot</item>
+
+    </string-array>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
